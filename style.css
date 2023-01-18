@@ -3,12 +3,14 @@
     src: url('Norse-Bold.otf');
   }
 
+
 body {
     margin: 0;
     padding: 0;
     display: flex;
     height: 100vh;
     width: 100vw;
+    font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -20,7 +22,7 @@ body {
 }
 
 .right {
-    background-color: red;
+    background:rgba(0, 0, 0, 0.1);
     width: 60%;
     height: 100%;
     display: flex;
@@ -28,9 +30,20 @@ body {
 }
 
 .right-top {
-    background-color: green;
-    width: 100%;
+    width: 75%;
     height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.right-top > h3 {
+    margin-left: 1em;
+}
+
+.right-top h3:last-of-type{
+    margin-bottom: 1.5em;
+    font-style: italic;
 }
 
 .right-bottom {
