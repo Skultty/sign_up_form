@@ -125,3 +125,31 @@ form {
     outline: none;
     border: 1px solid rgba(0, 0, 255, 0.6);
 }
+
+button {
+    background-color: #0b7dda;
+    border: none;
+    color: white;
+    padding: 0.5rem 2rem;
+    text-align: center;
+    margin: 1.5rem 0rem 0rem 2rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: blue;
+    transition: 0.5s;
+}
+
+p {
+    margin-left: 2rem;
+    font-size: 0.70rem;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: bold;
+}
+
+p > a {
+    color: #0b7dda;
+    text-decoration: none;
+}
